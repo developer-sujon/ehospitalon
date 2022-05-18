@@ -1,0 +1,177 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "title": "Front Office Management",
+      "featuresList": [
+        "All OPD appointment and reception",
+        "Front office related activities like enquiries, calls, and visitors, postal receive/dispatch"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Billing",
+      "featuresList": [
+        "To manage patients billing details",
+        "Pathology Billing",
+        "Radiology Billing and many more"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Appointment",
+      "featuresList": [
+        "To manage all patients online/offline booking details.",
+        "Doctor Wise appointment"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "OPD",
+      "featuresList": [
+        "Out Patient – for all OPD patient registration",
+        "Patient visits, revisits, old OPD patients"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "IPD",
+      "featuresList": [
+        "In Patient – for all IPD patients admission, consultant register, diagnosis, timeline",
+        "IPD charges, payments, bill and discharged IPD patients"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Billing",
+      "featuresList": [
+        "To manage patients billing details",
+        "Pathology Billing",
+        "Radiology Billing and many more"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Pathology",
+      "featuresList": ["All pathology test details", "Patient test records"]
+    },
+    {
+      "id": 8,
+      "title": "Radiology",
+      "featuresList": ["All radiology test details", "Patient test records"]
+    },
+    {
+      "id": 9,
+      "title": "Operation",
+      "featuresList": [
+        "Theatre – for managing patient operation activities",
+        "Operation records"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Blood Bank",
+      "featuresList": [
+        "Managing blood group available blood stock",
+        "Donor details",
+        "Blood issue details"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Ambulance",
+      "featuresList": ["Managing ambulance vehicles", "Ambulance call details"]
+    },
+    {
+      "id": 12,
+      "title": "Birth and Death Record",
+      "featuresList": [
+        "Managing all details of newly born babies birth",
+        "Patients death record"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Human Resource",
+      "featuresList": [
+        "All the information related to staff members can be manage here",
+        "Staff search, profile, attendance, payroll, leaves"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Referral",
+      "featuresList": ["Managing all referred patient’s records."]
+    },
+    {
+      "id": 15,
+      "title": "TPA Managemen",
+      "featuresList": [
+        "Third Party Administrator for managing changes",
+        "Records of insurance companies"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Finance",
+      "featuresList": ["Managing general income", "Expense record"]
+    },
+    {
+      "id": 17,
+      "title": "Messaging",
+      "featuresList": [
+        "It works like a notice board basically a messaging system for communication to patient and staff"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Inventory",
+      "featuresList": [
+        "Manage all the assets of your hospital, clinic or diagnostic center",
+        "Others stocks and store under inventory module"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Download Center",
+      "featuresList": [
+        "Managing downloadable documents that need to distribute staff"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Certificate",
+      "featuresList": [
+        "To manage patients billing details",
+        "Pathology Billing",
+        "Radiology Billing and many more"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Zoom Live Consultation",
+      "featuresList": ["Patient zoom live consultation", "Staff live meetings"]
+    },
+    {
+      "id": 22,
+      "title": "Reports",
+      "featuresList": [
+        "All the various reports related to different modules can be found here"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Calendar & To Do List",
+      "featuresList": [
+        "Track and manage all daily/monthly activities",
+        "Create your task in to-do list"
+      ]
+    },
+
+    {
+      "id": 24,
+      "title": "Certificate",
+      "featuresList": ["To install new update in current system"]
+    }
+  ]
+}
