@@ -924,34 +924,60 @@
   background-position: center center;
 }
 
+@media only screen and (min-width: 1040px) {
+  .banner_cnt {
+    width: 1000px;
+    margin: 0 auto !important;
+  }
+}
+
 @media only screen and (max-width: 1040px) {
   .banner {
-    height: 580px;
+    height: 560px;
+  }
+  .banner_cnt {
+    width: 800px;
+    margin: 0 auto !important;
   }
 }
 
 @media only screen and (max-width: 991px) {
+  .banner_cnt {
+    padding: 0 !important;
+    width: 700px;
+  }
   .banner {
-    height: 560px;
+    height: 650px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .banner {
-    height: 427px;
+  .banner_cnt {
+    padding: 0 !important;
+    width: 550px;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  .banner_cnt {
+    padding: 0 !important;
+    width: 350px;
+  }
   .banner {
-    height: 239px;
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .banner {
+    height: 650px;
+  }
+  .banner_cnt {
+    width: 350px;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .banner {
-    height: 200px;
-  }
   a.navbar-brand img {
     height: 43px;
   }
@@ -963,12 +989,6 @@
 
 .res {
   width: 400px;
-}
-
-@media only screen and (max-width: 1440px) {
-  .banner_cnt--taxiapp {
-    margin: 0 auto !important;
-  }
 }
 
 @media only screen and (max-width: 333px) {

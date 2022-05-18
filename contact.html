@@ -44,7 +44,9 @@
     <header class="topHeader" id="topHeader">
         <div class="marqueeBar">
             <div class="container-fluid">
-                <marquee class="d-flex">eHOSPITALON a product of <a href="https://worldsoftzone.com/" target="_blank">WorldSoftZone. </a> The best Hospital Management Software including Clinic, Diagnostic & Imaging.</marquee>
+                <marquee class="d-flex">eHOSPITALON a product of <a href="https://worldsoftzone.com/"
+                        target="_blank">WorldSoftZone. </a> The best Hospital Management Software including Clinic,
+                    Diagnostic & Imaging.</marquee>
             </div>
         </div>
         <nav class="navbar navbar-expand-md navbar-light mb-0 align-items-center" id="topMenu">
@@ -207,32 +209,7 @@
                 </div>
             </div>
         </section>
-        <section class="contactus_map commonSection bg-500">
-            <div class="container">
-                <div class="contactus_map_inner bgFull position-relative mx-auto progressive__bg progressive--not-loaded"
-                    data-progressive="./map-bg01.png">
-                    <div class="contactus_map_dot contactus_map_dot-india" data-container="body" data-toggle="popover"
-                        data-placement="top" data-html="true" data-content="<h4 class='font-bd'>Meherpur Office
-                        </h4><p>Parents Home, Meherpur 7100
-                        </p><p class='mb-0 font-bd'>+8801841-329494</p>">
-                    </div>
-                    <div id="usaOffice" class="contactus_map_dot contactus_map_dot-usa" data-container="body"
-                        data-toggle="popover" data-placement="top" data-html="true" data-content="<h4 class='font-bd'>USA Office</h4><p>Denton, TX 76210, USA
-                        </p><p class='mb-0 font-bd+1 (260) 297-0654, +1-872-444-3361</p>">
-                    </div>
-                    <div class="contactus_map_dot contactus_map_dot-uae" data-container="body" data-toggle="popover"
-                        data-placement="top" data-html="true" data-content="<h4 class='font-bd'>Dhaka Office
-                        </h4><p> Aurangabad road Mohammadpur, Dhaka
-                        </p><p class='mb-0 font-bd'>+8801841-329494</p>">
-                    </div>
-                    <div class="contactus_map_dot contactus_map_dot-uk" data-container="body" data-toggle="popover"
-                        data-placement="top" data-html="true" data-content="<h4 class='font-bd'>Germany Office
-                        </h4><p>Konsul Francke Strasse 7, 21075 Hamburg, Germany
-                        </p>">
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
     </main>
     <footer class="footer" id="footer">
@@ -505,6 +482,7 @@
     <script>
         var contactphone = document.querySelector("#contactquotes_phone");
         var iti = window.intlTelInput(contactphone, {
+            initialCountry: "bd",
             separateDialCode: true,
             nationalMode: true,
             utilsScript: "./assets/js/utils.js",
