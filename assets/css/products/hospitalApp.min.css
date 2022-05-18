@@ -924,6 +924,10 @@
   background-position: center center;
 }
 
+section.banner.position-relative.home {
+  height: 765px;
+}
+
 @media only screen and (min-width: 1040px) {
   .banner_cnt {
     width: 1000px;
@@ -938,6 +942,9 @@
   .banner_cnt {
     width: 800px;
     margin: 0 auto !important;
+  }
+  section.banner.position-relative.home {
+    height: 575px;
   }
 }
 
@@ -956,6 +963,9 @@
     padding: 0 !important;
     width: 550px;
   }
+  section.banner.position-relative.home {
+    height: 432px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -964,22 +974,31 @@
     width: 350px;
   }
   .banner {
-    height: 700px;
+    height: 790px;
+  }
+  section.banner.position-relative.home {
+    height: 239px;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .banner {
-    height: 650px;
+    height: 890px;
   }
   .banner_cnt {
-    width: 350px;
+    width: 292px;
+  }
+  section.banner.position-relative.home {
+    height: 211px;
   }
 }
 
 @media only screen and (max-width: 320px) {
   a.navbar-brand img {
     height: 43px;
+  }
+  section.banner.position-relative.home {
+    height: 180px;
   }
 }
 
